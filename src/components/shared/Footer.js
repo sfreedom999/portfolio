@@ -13,14 +13,13 @@ const Footer = () => {
         </div>
         <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end text-xl">
           <a href="https://www.linkedin.com/in/tasmim-rahman-2a7a71259/">
-            {" "}
-            <FaLinkedin></FaLinkedin>
+            <FaLinkedin />
           </a>
           <a href="https://github.com/tasmim20">
-            <FaGithub></FaGithub>
+            <FaGithub />
           </a>
-          <a href="">
-            <FaFacebookSquare></FaFacebookSquare>
+          <a href="https://github.com/tasmim20">
+            <FaFacebookSquare />
           </a>
         </div>
       </footer>

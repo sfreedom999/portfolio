@@ -8,24 +8,24 @@ import Skills from "../Skills/Skills";
 
 const Home = () => {
   return (
-    <div className=" max-w-8xl p-6 mx-auto space-y-6 sm:space-y-12 bg-blackdeep pt-15 pb-10">
-      <div className="max-w-8xl p-6 mx-auto space-y-6 sm:space-y-12">
-        <Header></Header>
+    <div className="max-w-8xl mx-auto bg-blackdeep px-6 py-10 space-y-12 sm:py-20">
+      <div className="space-y-12 sm:space-y-24">
+        <Header />
       </div>
-      <div className="max-w-8xl p-6 mx-auto space-y-6 sm:space-y-12">
-        <AboutMe></AboutMe>
+      <div className="space-y-12 sm:space-y-24">
+        <AboutMe />
       </div>
-      <div className="max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-        <Skills></Skills>
+      <div className="space-y-12 sm:space-y-24">
+        <Skills />
       </div>
-      <div className="max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-        <Services></Services>
+      <div className="space-y-12 sm:space-y-24">
+        <Services />
       </div>
-      <div className="max-w-7xl p-6 mx-auto space-y-6 sm:space-y-12">
-        <Projects></Projects>
+      <div className="space-y-12 sm:space-y-24">
+        <Projects />
       </div>
-      <div className="">
-        <ContactMe></ContactMe>
+      <div>
+        <ContactMe />
       </div>
     </div>
   );
