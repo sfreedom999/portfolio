@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import girl from '../../assets/girlicon2.png';
+import boy from '../../assets/developer.png';
 
 const Navbar = () => {
   return (
@@ -36,10 +36,10 @@ const Navbar = () => {
           </div>
           <div className="avatar">
             <div className="w-16 rounded-full">
-              <img className="bg-redlight" src={girl} alt="Avatar" />
+              <img className="bg-redlight" src={boy} alt="Avatar" />
             </div>
           </div>
-          <p className="btn btn-ghost normal-case text-xl text-grayLight">Tasmim Rahman</p>
+          <p className="btn btn-ghost normal-case text-xl text-grayLight">Arefin Shaon</p>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-grayLight">

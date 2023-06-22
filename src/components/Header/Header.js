@@ -5,28 +5,37 @@ import {
   HiOutlineLocationMarker,
   HiOutlineMail,
 } from "react-icons/hi";
-import girl from "../../assets/girlicon2.png";
-import resume from "../../assets/TAS-Resume.pdf";
+import boy from "../../assets/developer.png";
+import resume from "../../assets/Arefin_Shaon MERN Stack Developer_Resume.pdf";
 import { Link } from "react-router-dom";
+import background from "../../assets/back.png";
 
 const Header = () => {
+  const divStyle = {
+    backgroundImage: `url(${background})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    minHeight: '100vh',
+    padding: '6rem',
+  };
   return (
     <div>
-      <div className="mt-20">
+      <div className="mt-20" style={divStyle}>
         <div className="hero text-grayLight rounded-lg">
           <div className="flex flex-col lg:flex-row-reverse">
             <img
-              src={girl}
-              style={{ width: 620, height: 560 }}
+              src={boy}
+              style={{ width: 460, height: 400 }}
               className="rounded-lg shadow-2xl lg:ml-28 w-full"
-              alt="Girl Icon"
+              alt=""
             />
             <div className="content-container">
-              <div className="shadow-2xl shadow-gray-900 rounded-lg p-10 font-sans">
+              <div className="shadow-2xl shadow-gray-900 rounded-lg p-10 font-sans style={divStyle} ">
                 <h2 className="text-5xl font-extrabold font-sans">
-                  Hi, I'm <span className="text-darkpink">Tasmim</span>
+                  Hi, I'm <span className="text-darkpink">Arefin</span>
                 </h2>
-                <p className="my-5">MERN Stack Developer from Bangladesh</p>
+                <p className="my-5">MERN Stack Developer from Bangladesh.</p>
                 <div className="pt-10">
                   <div className="flex">
                     <HiOutlineDocument className="text-darkpink w-7 h-7" />
@@ -34,7 +43,7 @@ const Header = () => {
                   </div>
                   <div className="flex py-3">
                     <HiOutlineMail className="text-darkpink w-7 h-7" />
-                    <p className="">tasmimrahman2000@gmail.com</p>
+                    <p className="">arefinshaon99@gmail.com</p>
                   </div>
                   <div className="flex">
                     <HiOutlineLocationMarker className="text-darkpink w-7 h-7" />
@@ -44,15 +53,16 @@ const Header = () => {
               </div>
               <div className="shadow-2xl shadow-gray-900 rounded-lg p-10 mt-8 font-sans">
                 <p className="py-5">Download My Resume:</p>
-                <a href={resume} download="Tasmim Rahman">
+                <a href={resume} download="Arefin Shaon">
                   <button className="btn btn-outline border-sm mr-5 shadow-2xl sm:mb-5 lg:mb-0 text-darkpink rounded-none bg-blackdeep">
                     Download Resume
                   </button>
                 </a>
-                <Link smooth to="#contactMe">
-                  <button className="btn btn-outline border-sm shadow-2xl rounded-none text-darkpink">
-                    Contact me
-                  </button>
+                <Link
+                  to="#contactMe"
+                  className="btn btn-outline border-sm shadow-2xl rounded-none text-darkpink"
+                >
+                  Contact me
                 </Link>
               </div>
             </div>
