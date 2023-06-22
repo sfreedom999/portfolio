@@ -8,20 +8,11 @@ import {
 import boy from "../../assets/developer.png";
 import resume from "../../assets/Arefin_Shaon MERN Stack Developer_Resume.pdf";
 import { Link } from "react-router-dom";
-import background from "../../assets/back.png";
 
 const Header = () => {
-  const divStyle = {
-    backgroundImage: `url(${background})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    minHeight: '100vh',
-    padding: '6rem',
-  };
   return (
     <div>
-      <div className="mt-20" style={divStyle}>
+      <div className="mt-20">
         <div className="hero text-grayLight rounded-lg">
           <div className="flex flex-col lg:flex-row-reverse">
             <img
@@ -31,7 +22,7 @@ const Header = () => {
               alt=""
             />
             <div className="content-container">
-              <div className="shadow-2xl shadow-gray-900 rounded-lg p-10 font-sans style={divStyle} ">
+              <div className="shadow-2xl shadow-gray-900 rounded-lg p-10 font-sans">
                 <h2 className="text-5xl font-extrabold font-sans">
                   Hi, I'm <span className="text-darkpink">Arefin</span>
                 </h2>
