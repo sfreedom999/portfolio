@@ -7,10 +7,18 @@ import {
   DiReact,
 } from "react-icons/di";
 import Tools from "./Tools/Tools";
+import background from "../../../assets/front2.png"
 
 const Skills = () => {
+  const divStyle = {
+    backgroundImage: `url(${background})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    minHeight: '100px',
+  };
   return (
-    <div className="grid justify-center" id="skills">
+    <div style={divStyle} className="grid justify-center -mt-12 py-8" id="skills">
       <h2
         data-aos="fade-up"
         data-aos-easing="ease-out-cubic"

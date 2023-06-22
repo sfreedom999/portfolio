@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import boy from '../../assets/developer.png';
+import boy from '../../assets/boyimg.png';
 import background from "../../assets/front2.png"
 
 const Navbar = () => {
@@ -47,7 +47,7 @@ const Navbar = () => {
               <img src={boy} alt="Avatar" />
             </div>
           </div>
-          <p className=" uppercase md:text-2xl font-bold text-primary">Arefin</p>
+          <p className=" uppercase md:text-2xl font-bold text-primary">Arefin Shaon</p>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-grayLight font-bold">
