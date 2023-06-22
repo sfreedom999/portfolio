@@ -8,12 +8,21 @@ import {
 import boy from "../../assets/developer.png";
 import resume from "../../assets/Arefin_Shaon MERN Stack Developer_Resume.pdf";
 import { Link } from "react-router-dom";
+import background from "../../assets/front.png"
 
 const Header = () => {
+  const divStyle = {
+    backgroundImage: `url(${background})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    minHeight: '100vh',
+  };
+
   return (
     <div>
-      <div className="mt-20">
-        <div className="hero text-grayLight rounded-lg">
+      <div className="md:-mt-20">
+        <div style={divStyle}  className="hero text-grayLight rounded-lg">
           <div className="flex flex-col lg:flex-row-reverse">
             <img
               src={boy}
@@ -24,7 +33,7 @@ const Header = () => {
             <div className="content-container">
               <div className="shadow-2xl shadow-gray-900 rounded-lg p-10 font-sans">
                 <h2 className="text-5xl font-extrabold font-sans">
-                  Hi, I'm <span className="text-darkpink">Arefin</span>
+                  Hi, I'm <span className="text-darkpink">Arefin Shaon</span>
                 </h2>
                 <p className="my-5">MERN Stack Developer from Bangladesh.</p>
                 <div className="pt-10">

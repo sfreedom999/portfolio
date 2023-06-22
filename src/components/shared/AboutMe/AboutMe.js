@@ -1,8 +1,16 @@
 import React from "react";
+import background from "../../../assets/front2.png"
 
 const AboutMe = () => {
+  const divStyle = {
+    backgroundImage: `url(${background})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    minHeight: '80vh',
+  };
   return (
-    <div className="my-16" id="aboutMe">
+    <div style={divStyle}  className="my-16" id="aboutMe">
       <div className="hero text-grayLight rounded-lg">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img data-aos="fade-up"
