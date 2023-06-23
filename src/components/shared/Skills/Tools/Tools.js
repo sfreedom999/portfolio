@@ -19,12 +19,12 @@ const Tools = () => {
         >
           <span className="text-darkpink">Tools</span> I use
         </h2>
-        <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-10">
-          <SiVisualstudiocode className="text-grayLight transition duration-700 hover:scale-110 hover:bg-lightpink hover:text-white  font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-800/40 border border-reddark" />
-          <SiFirebase className="text-grayLight transition duration-700 hover:scale-110 hover:bg-lightpink  hover:text-white font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-800/40 border   border-reddark" />
-          <SiNetlify className="text-grayLight transition duration-700 hover:scale-110 hover:bg-lightpink hover:text-white  font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-800/40 border border-reddark" />
-          <SiGithub className="text-grayLight transition duration-700 hover:scale-110 hover:bg-lightpink hover:text-white  font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-800/40 border border-reddark" />
-          <SiVercel className="text-grayLight transition duration-700 hover:scale-110 hover:bg-lightpink hover:text-white   font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-800/40 border border-reddark" />
+        <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-10 ">
+          <SiVisualstudiocode className="transition duration-700 hover:scale-110 text-grayLight hover:bg-cyan-800 hover:text-white font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-500/80 border border-reddark" />
+          <SiFirebase className="transition duration-700 hover:scale-110 text-grayLight hover:bg-cyan-800 hover:text-white font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-500/80 border border-reddark" />
+          <SiNetlify className="transition duration-700 hover:scale-110 text-grayLight hover:bg-cyan-800 hover:text-white font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-500/80 border border-reddark" />
+          <SiGithub className="transition duration-700 hover:scale-110 text-grayLight hover:bg-cyan-800 hover:text-white font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-500/80 border border-reddark" />
+          <SiVercel className="transition duration-700 hover:scale-110 text-grayLight hover:bg-cyan-800 hover:text-white font-semibold h-28 w-36 p-2 shadow-2xl shadow-red-500/80 border border-reddark" />
         </div>
       </div>
     </div>

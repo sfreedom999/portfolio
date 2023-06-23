@@ -1,8 +1,16 @@
 import React from "react";
+import background from "../../../assets/front2.png";
 
 const Services = () => {
+  const divStyle = {
+    backgroundImage: `url(${background})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    minHeight: "100vh",
+  };
   return (
-    <div className="text-grayLight">
+    <div style={divStyle} className="text-grayLight -mt-12 py-12">
       <div
         id="services"
         data-aos="fade-up"
@@ -10,15 +18,15 @@ const Services = () => {
         data-aos-duration="1000"
         className="text-center"
       >
-        <h2 className="font-bold text-5xl">Services</h2>
-        <p className="text-xl text-darkpink mt-3 mb-5">What I Offer</p>
+        <h2 className="font-bold text-5xl mb-4">Services</h2>
+        <p className="text-xl text-darkpink font-bold mt-3 mb-5">What I Offer</p>
       </div>
-      <div className="grid lg:grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-10">
+      <div className="grid lg:grid-cols-1 md:grid-cols-2 grid-cols-1 gap-6">
         <div
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
-          className="card lg:card-side bg-blackdeep shadow-2xl shadow-gray-900 rounded-lg"
+          className="card lg:card-side bg-cyan-800 shadow-2xl shadow-gray-900 rounded-lg md:w-2/3 mx-auto"
         >
           <figure className="rounded-lg">
             <img
@@ -46,7 +54,7 @@ const Services = () => {
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
-          className="card lg:card-side bg-blackdeep shadow-2xl shadow-gray-900 rounded-lg my-10"
+          className="card lg:card-side bg-cyan-800 shadow-2xl shadow-gray-900 rounded-lg md:w-2/3 mx-auto"
         >
           <figure className="rounded-lg">
             <img
@@ -72,7 +80,7 @@ const Services = () => {
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
-          className="card lg:card-side bg-blackdeep shadow-2xl shadow-gray-900 rounded-lg"
+          className="card lg:card-side bg-cyan-800 shadow-2xl shadow-gray-900 rounded-lg md:w-2/3 mx-auto"
         >
           <figure className="rounded-lg">
             <img

@@ -47,7 +47,7 @@ const Navbar = () => {
               <img src={boy} alt="Avatar" />
             </div>
           </div>
-          <p className=" uppercase md:text-2xl font-bold text-primary">Arefin Shaon</p>
+          <p className=" uppercase md:text-2xl font-bold text-primary hover:text-darkpink hover:translate-y-1">Arefin Shaon</p>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-grayLight font-bold">
