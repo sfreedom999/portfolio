@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import img from "../../../assets/5.jpg";
+import img from "../../../assets/front2.png";
 import { toast } from "react-hot-toast";
 import emailjs from '@emailjs/browser';
 
@@ -23,7 +23,7 @@ const ContactMe = () => {
 
   return (
     <div>
-      <div id="contactMe" className="hero text-white py-20" style={{ backgroundImage: `url(${img})` }}>
+      <div id="contactMe" className="hero text-white py-20 -mt-20" style={{ backgroundImage: `url(${img})` }}>
         <div className="lg:flex-row-reverse">
           <div className="text-center w-full" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
             <h1 className="text-4xl text-grayLight font-bold pb-10">Contact Me</h1>
@@ -58,7 +58,7 @@ const ContactMe = () => {
                 ></textarea>
                 <div className="grid justify-center" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                   <input
-                    className="btn btn-active rounded-none bg-reddark text-white mt-8 px-10"
+                    className="btn btn-active rounded-none bg-darkpink text-white mt-8 px-10"
                     type="submit"
                     value="Send Message"
                   />
@@ -67,15 +67,15 @@ const ContactMe = () => {
               <div className="grid text-center lg:grid-cols-3 sm:grid-cols-1 mt-12" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 <div>
                   <h2>Email Me</h2>
-                  <p className="text-lightBlack">tasmimrahman2000@gmail.com</p>
+                  <p className="text-lightBlack">arefinshaon99@gmail.com</p>
                 </div>
                 <div>
                   <h2>Call me</h2>
-                  <p className="text-lightBlack">+8801701954548</p>
+                  <p className="text-lightBlack">+8801324219004</p>
                 </div>
                 <div>
                   <h2>LinkedIn</h2>
-                  <p className="text-lightBlack">https://www.linkedin.com/in/tasmim-rahman-2a7a71259</p>
+                  <p className="text-lightBlack">https://www.linkedin.com/in/arefin-shaon/</p>
                 </div>
               </div>
             </div>
