@@ -29,9 +29,9 @@ const Home = () => {
       <div className="space-y-12 sm:space-y-24">
         <Services />
       </div>
-      <div className="space-y-12 sm:space-y-24">
+      {/* <div className="space-y-12 sm:space-y-24">
         <Projects />
-      </div>
+      </div> */}
       <div>
         <ContactMe />
       </div>

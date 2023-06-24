@@ -30,13 +30,11 @@ const AboutMe = () => {
             </h1>
             <ul className="list-disc">
               <li className="mb-3">
-                Hi there.. Myself Arefin Shaon, Who loves💓 developing. I am a MERN Stack Developer.
+                Hi there.. Myself Md Sadhin Hossen, Who loves Pentesting.
               </li>
               <li className="mb-3">
-                I am doing my bachelors in Technology specialization in ECE from
-                Hajee Mohammad Danesh Science & Technology University . I
-                have completed Web Development course from Programming
-                hero(CEO-Jhankar Mahbub).
+                I am doing my bachelors in Chemistry from Tejgaon College Dhaka. I
+                have completed Web Pentesting & Bug Hunting course from Cyber Bangla.
               </li>
               <li className="mb-3">
                 Please take a look👀 at my portfolio and feel free to get in touch

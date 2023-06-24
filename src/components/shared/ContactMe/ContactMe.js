@@ -103,16 +103,16 @@ const ContactMe = () => {
               >
                 <div>
                   <h2>Email Me</h2>
-                  <p className="text-lightBlack">arefinshaon99@gmail.com</p>
+                  <p className="text-lightBlack">ffreedom530@gmail.com</p>
                 </div>
                 <div>
                   <h2>Call me</h2>
-                  <p className="text-lightBlack">+8801324219004</p>
+                  <p className="text-lightBlack">+8801304151418</p>
                 </div>
                 <div>
                   <h2>LinkedIn</h2>
                   <p className="text-lightBlack">
-                    https://www.linkedin.com/in/arefin-shaon/
+                  https://www.linkedin.com/in/md-sadhin-hossen-b765bb252/
                   </p>
                 </div>
               </div>

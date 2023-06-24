@@ -36,21 +36,19 @@ const Services = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Frontend Development</h2>
+            <h2 className="card-title">Web Pentesting</h2>
             <p>
-              I have experience in creating visually appealing and
-              user-friendly interfaces using React, Tailwind CSS, Bootstrap,
-              and Material UI.
+            I have experience in pentesting manually as well as automatically using all types of hacking and pentesting tools.
             </p>
-            <div className="card-actions justify-end">
+            {/* <div className="card-actions justify-end">
               <button className="btn btn-outline border-sm shadow-2xl rounded-none text-darkpink">
                 Contact me
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <div
+        {/* <div
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
@@ -75,8 +73,8 @@ const Services = () => {
               </button>
             </div>
           </div>
-        </div>
-        <div
+        </div> */}
+        {/* <div
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
@@ -101,7 +99,7 @@ const Services = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

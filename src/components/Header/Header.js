@@ -35,18 +35,18 @@ const Header = () => {
             <div className="content-container">
               <div className="border border-cyan-600  shadow-2xl shadow-cyan-600 rounded-lg p-10 font-sans">
                 <h2 className="text-5xl font-extrabold font-sans">
-                  Hi, I'm <span className="text-darkpink">Arefin Shaon</span>
+                  Hi, I'm <span className="text-darkpink">Md Sadhin Hossen</span>
                 </h2>
                 <p className="my-5 font-bold ">
                   <TypeAnimation
                     preRenderFirstString={true}
                     sequence={[
                       500,
-                      "I am a MERN Stack Developer",
+                      "I am a Cyber Security Expert",
                       1000,
-                      "I am a React Developer",
+                      "I am a Bug Hunter",
                       1000,
-                      "I am a Full Stack Developer",
+                      "I am a Web Pentester",
                       500,
                     ]}
                     speed={50}
@@ -55,17 +55,17 @@ const Header = () => {
                   />
                 </p>
                 <div className="pt-10">
-                  <div className="flex">
+                  {/* <div className="flex">
                     <HiOutlineDocument className="text-darkpink w-7 h-7" />
                     <p className="">Web Developer</p>
-                  </div>
+                  </div> */}
                   <div className="flex py-3">
                     <HiOutlineMail className="text-darkpink w-7 h-7" />
-                    <p className="">arefinshaon99@gmail.com</p>
+                    <p className="">ffreedom530@gmail.com</p>
                   </div>
                   <div className="flex">
                     <HiOutlineLocationMarker className="text-darkpink w-7 h-7" />
-                    <p className="">Rangpur, Bangladesh</p>
+                    <p className="">Jhenaidah, Bangladesh</p>
                   </div>
                 </div>
               </div>
