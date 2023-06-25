@@ -1,9 +1,9 @@
 import React from "react";
-import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import "./Header.css";
 import {
-  HiOutlineDocument,
+  // HiOutlineDocument,
   HiOutlineLocationMarker,
   HiOutlineMail,
 } from "react-icons/hi";
@@ -68,28 +68,41 @@ const Header = () => {
                     <p className="">Jhenaidah, Bangladesh</p>
                   </div>
                 </div>
-              </div>
-              <div className=" border border-cyan-500 shadow-2xl shadow-cyan-500 rounded-lg p-10 mt-8 font-sans">
-                <p className="py-2">Download My Resume:</p>
-                <a href={resume} download="Arefin Shaon">
-                  <button className="btn btn-outline border-sm mr-5 shadow-2xl sm:mb-5 lg:mb-0 text-darkpink rounded-none bg-blackdeep">
-                    Download Resume
-                  </button>
-                </a>
                 <div className=" py-2">
                   <p>Others Profiles:</p>
                 <div className="flex border-sm mr-5 mt-2  shadow-2xl sm:mb-5 lg:mb-0 text-darkpink rounded-none gap-4 text-2xl">
-                  <a href="https://www.linkedin.com/in/arefin-shaon/">
+                  <a href="https://www.linkedin.com/in/md-sadhin-hossen-b765bb252/">
                     <FaLinkedin />
                   </a>
-                  <a href="https://github.com/ArefinShaon">
+                  <a href="https://github.com/sfreedom999">
                     <FaGithub />
                   </a>
-                  <a href="https://web.facebook.com/Arefin.shawon.0">
+                  {/* <a href="https://web.facebook.com/Arefin.shawon.0">
                     <FaFacebookSquare />
-                  </a>
+                  </a> */}
                 </div>
-                </div>
+              </div>
+              {/* <div className=" border border-cyan-500 shadow-2xl shadow-cyan-500 rounded-lg p-10 mt-8 font-sans"> */}
+                {/* <p className="py-2">Download My Resume:</p> */}
+                {/* <a href={resume} download="Arefin Shaon">
+                  <button className="btn btn-outline border-sm mr-5 shadow-2xl sm:mb-5 lg:mb-0 text-darkpink rounded-none bg-blackdeep">
+                    Download Resume
+                  </button>
+                </a> */}
+                {/* <div className=" py-2"> */}
+                  {/* <p>Others Profiles:</p> */}
+                {/* <div className="flex border-sm mr-5 mt-2  shadow-2xl sm:mb-5 lg:mb-0 text-darkpink rounded-none gap-4 text-2xl"> */}
+                  {/* <a href="https://www.linkedin.com/in/md-sadhin-hossen-b765bb252/"> */}
+                    {/* <FaLinkedin /> */}
+                  {/* </a> */}
+                  {/* <a href="https://github.com/sfreedom999"> */}
+                    {/* <FaGithub /> */}
+                  {/* </a> */}
+                  {/* <a href="https://web.facebook.com/Arefin.shawon.0">
+                    <FaFacebookSquare />
+                  </a> */}
+                {/* </div> */}
+                {/* </div> */}
               </div>
             </div>
           </div>
