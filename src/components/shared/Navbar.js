@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import boy from '../../assets/boyimg.png';
+import boy from '../../assets/IMG_8089.jpg';
 import background from "../../assets/front2.png"
 
 const Navbar = () => {
@@ -44,7 +44,7 @@ const Navbar = () => {
           </div>
           <div className="avatar mx-8">
             <div className="w-16 rounded-full">
-              <img src={boy} alt="Avatar" />
+              <img src={boy} className="" alt="Avatar" />
             </div>
           </div>
         

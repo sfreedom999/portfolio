@@ -8,7 +8,7 @@ import {
 } from "react-icons/di";
 import Tools from "./Tools/Tools";
 import background from "../../../assets/front2.png"
-import burp from "../../../assets/burp.png"
+// import burp from "../../../assets/burp.png"
 const Skills = () => {
   const divStyle = {
     backgroundImage: `url(${background})`,

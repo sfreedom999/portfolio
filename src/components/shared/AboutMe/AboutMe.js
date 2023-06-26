@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../../../assets/front2.png"
-import boy from "../../../assets/boyimg.png"
+import boy from "../../../assets/poking.png"
 const AboutMe = () => {
   const divStyle = {
     backgroundImage: `url(${background})`,
@@ -17,8 +17,8 @@ const AboutMe = () => {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
             src={boy}
-            style={{ height: 400, width: 600 }}
-            className="rounded-lg shadow-2xl bg-black w-full mt-10" alt="" />
+            style={{ height: 650, width: 700 }}
+            className=" bg-none w-full " alt="" />
           <div
             data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
